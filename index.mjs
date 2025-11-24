@@ -85,7 +85,7 @@ app.get('/pluto', (req, res) => {
 
 app.get("/nasa", async (req, res) => {
     const nasaUrl =
-        "https://api.nasa.gov/planetary/apod?api_key=9mUzIkhlZCZaOoMfspg7jMmwZCZ4LiRHtkgkambD&date=2024-11-14";
+        "https://api.nasa.gov/planetary/apod?api_key=9mUzIkhlZCZaOoMfspg7jMmwZCZ4LiRHtkgkambD&date=2025-11-24";
 
     let nasaData;
     let nasaImage;
